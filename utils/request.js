@@ -2,7 +2,7 @@ import axios from "axios";
 
 // 创建基于 Axios 的实例
 const instance = axios.create({
-  baseURL: "http://interview-api-t.itheima.net/h5/",
+  baseURL: "https://interview-api-t.itheima.net/h5/",
   timeout: 5000, // 请求超时时间
 });
 

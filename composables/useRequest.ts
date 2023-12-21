@@ -5,7 +5,7 @@ export const useRequest = async (
   options?: UseFetchOptions<any>
 ) => {
   const { data, error } = await useFetch(url, {
-    baseURL: "http://interview-api-t.itheima.net/h5/",
+    baseURL: "https://interview-api-t.itheima.net/h5/",
     headers: {
       Authorization: "Bearer " + getToken(),
     },
